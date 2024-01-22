@@ -27,6 +27,7 @@ add_subdirectory(lwlog-demo)
 add_subdirectory(gtest-demo)
 add_subdirectory(Warmup_1)
 add_subdirectory(Warmup_2)
+add_subdirectory(Warmup_3)
 add_subdirectory(Warmup_10)
 
 # You can use add_subdirectory() to add your own work. 
