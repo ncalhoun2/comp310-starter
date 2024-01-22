@@ -6,7 +6,7 @@ int main(){
    for(int i = 0; i< sizeof(numbers)/ sizeof(numbers[0]); i++){
       sum += numbers[i];
    }
-   double average = sum / (double) sizeof(numbers);
+   double average = sum / ((double) sizeof(numbers)/ sizeof(numbers[0]));
    printf("Sum: %d\n", sum);
    printf("Average: %f\n", average);
 }
