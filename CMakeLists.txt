@@ -14,7 +14,7 @@ FetchContent_Declare(
   GIT_TAG        v1.14.0
 )
 
-# Windows workaround (don't ask) 
+# Windows workaround (don't ask)
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 
 FetchContent_MakeAvailable(googletest)
@@ -29,6 +29,7 @@ add_subdirectory(Warmup_1)
 add_subdirectory(Warmup_2)
 add_subdirectory(Warmup_3)
 add_subdirectory(Warmup_4)
+add_subdirectory(Warmup_5)
 add_subdirectory(Warmup_10)
 
 # You can use add_subdirectory() to add your own work. 
